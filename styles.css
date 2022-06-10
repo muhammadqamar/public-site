@@ -727,6 +727,7 @@ h6 {
   .choose-the-category .choose-cards .choose-card .card-bg {
     width: 100%;
     min-height: 297.94px;
+    background-size: cover;
   }
   .choose-the-category .choose-cards .choose-card .card-bg .ac-img {
     width: 100%;
