@@ -6,7 +6,7 @@ $('.banner_slider2').slick({
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 4,
-    arrows:false
+    arrows:true
     // centerMode: true,
 
     // responsive: [

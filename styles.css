@@ -527,19 +527,12 @@ h6 {
   border-bottom: 1px solid #d2e2da;
   border: none !important;
 }
-#accordion-item-style-first{
-  border-top: 1px solid gray  !important ;
-  border-left:none !important ;
-  border-right:none !important ;
-  /* border-bottom:none  !important ; */
-  border-bottom: 1px solid gray  !important ;
-}
+
 #accordion-item-style{
-  border-top: 1px solid gray  !important ;
+ 
   border-left:none !important ;
   border-right:none !important ;
-    border-bottom:none  !important ;
-  /* border-bottom: 1px solid gray  !important ; */
+
 
 }
 .steps .steps-wrapper .applecation-box .applecations .accordion-button {
@@ -916,9 +909,9 @@ h6 {
 /* See our TOP options! CSS */
 .top-option-section{
   position: relative;
-  /* max-width: 1440px; */
-  margin: 0 auto;
-  padding: 88px 0 334px 0;
+  /* max-width: 1440px;
+  margin: 0 auto; */
+  padding: 88px 0 334px 0 !important;
   background-color: #008046  ;
   /* margin-bottom: 245px; */
 }
@@ -937,7 +930,7 @@ h6 {
 }
 .top-option-video{
   margin: 0px auto;
-  padding: 69px 214px 56px 214px;
+  padding: 69px 0 56px 0;
 }
 /* .option-video{
   width: 100% !important;
@@ -947,7 +940,7 @@ h6 {
 
 .top-option-image-slider{
 
-padding: 0px 214px 0px 214px;
+/* padding: 0px 214px 0px 214px; */
 
 }
 
@@ -965,22 +958,25 @@ padding: 0px 214px 0px 214px;
   border: 1px solid red;
   z-index: 9999; */
 }
+.forget-section{
+  position: relative;
+}
 .forget-section-Detail{
   position: absolute;
-  bottom: -56px;
-  left: 110px;
+  top: 126px;
+  left: 0px;
 
   padding: 0px 150px 0px 100px;
   z-index: 9999;
-  max-width: 1018px;
-  /* width: 100%; */
+  /* max-width: 1018px; */
+  width: 100%;
   height: 346px;
   background: #fff;
   box-shadow: 0px 14px 54px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   display: flex;
   align-items: center;
-  margin: 0px 151px  0px 100px;
+  /* margin: 0px 151px  0px 100px; */
 }
 
 
@@ -1008,8 +1004,8 @@ padding: 0px 214px 0px 214px;
 }
 /* ========Start grant section CSS===== */
 .grant_section{
-  padding: 164px 214px 0px 214px;
   background-color: #F7F7F7;
+  padding-top: 144px;
 }
 .grant__text_section{
   margin-top: 60px;
@@ -1024,7 +1020,7 @@ padding: 0px 214px 0px 214px;
 /* ========End grant section CSS===== */
 /* ========Start accordin section CSS==== */
 .accordin_section{
-  padding: 0px 214px 0px 214px;
+  /* padding: 0px 214px 124px 214px; */
   margin-top: 80px;
 }
 .accordin_section .accordion-button{
@@ -1060,47 +1056,43 @@ padding: 0px 214px 0px 214px;
 
 
 /* =====App Media Query section==== */
+
+
 @media screen and (max-width:1366px){
   .top-option-video{
-    padding: 69px 190px 56px 190px;
+    padding: 69px 0 56px 0;
   }
   .forget-section-Detail{
     max-width: 1000px;
-    left: 90px;
+    /* left: 90px; */
   }
   .top-option-image-slider{
-    padding: 0px 190px ;
+    /* padding: 0px 190px ; */
   }
   .grant_section{
-    padding: 164px  190px 0px;
-  }
-  .accordin_section{
-    padding: 0px 190px;
+    padding-top: 130px;
   }
 }
 @media screen and (max-width:1280px){
-  .forget-section-Detail{
+  /* .forget-section-Detail{
     max-width: 900px;
     left: 100px;
-  }
+  } */
 }
 @media screen and (max-width:1024px){
   .top-option-image-slider{
-    padding: 0px 90px 0px 90px;
+    /* padding: 0px 90px 0px 90px; */
     }
     .top-option-video{
-      padding: 69px 90px 56px 90px;
+      padding: 69px 0 56px 0;
     }
   .forget-section-Detail{
-    left: 90px;
-    max-width: 840px; 
+    /* left: 90px;
+    max-width: 840px;  */
     margin: 0;
   }
   .grant_section{
-    padding: 100px  90px 0px;
-  }
-  .accordin_section{
-    padding: 0px 90px;
+    padding-top: 100px;
   }
   .accordin_section .accordion-button{
     font-size: 30px;
@@ -1112,28 +1104,25 @@ padding: 0px 214px 0px 214px;
 }
 @media screen and (max-width:768px){
   .top-option-video{
-    padding: 69px 40px 56px 40px;
+    padding: 69px 0 56px 0;
   }
   .top-option-image-slider{
-    padding: 0px 40px;
+    /* padding: 0px 40px; */
     
     }
   .forget-section-Detail{
     /* display: flex; */
     /* position: static; */
     flex-direction: column;
-    left: 40px;
+    /* left: 40px; */
     height: max-content;
     padding: 30px 0;
-    bottom: -150px;
-    max-width: 690px;
-    margin: 0 auto; 
+    /* bottom: -150px;
+    max-width: 690px; */
+    /* margin: 0 auto;  */
   }
   .grant_section{
-    padding: 164px  40px 0px;
-  }
-  .accordin_section{
-    padding: 0px 40px;
+    padding-top: 130px ;
   }
   .grant__text_section{
     margin-top: 0px;
@@ -1141,7 +1130,7 @@ padding: 0px 214px 0px 214px;
 }
 @media screen and (max-width:600px){
   .top-option-section{
-    padding: 88px 0 10px 0;
+    padding: 88px 0 10px 0 !important;
   }
   .forget-section-Detail{
     position: static;
@@ -1162,10 +1151,7 @@ padding: 0px 214px 0px 214px;
     font-size: 28px;
   }
   .grant_section{
-    padding: 80px  20px 0px;
-  }
-  .accordin_section{
-    padding: 0px 20px;
+    padding-top: 80px;
   }
   .accordin_section .accordion-button{
     font-size: 18px;
