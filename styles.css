@@ -525,6 +525,22 @@ h6 {
   .accordion-item {
   border-top: 1px solid #d2e2da;
   border-bottom: 1px solid #d2e2da;
+  border: none !important;
+}
+#accordion-item-style-first{
+  border-top: 1px solid gray  !important ;
+  border-left:none !important ;
+  border-right:none !important ;
+  /* border-bottom:none  !important ; */
+  border-bottom: 1px solid gray  !important ;
+}
+#accordion-item-style{
+  border-top: 1px solid gray  !important ;
+  border-left:none !important ;
+  border-right:none !important ;
+    border-bottom:none  !important ;
+  /* border-bottom: 1px solid gray  !important ; */
+
 }
 .steps .steps-wrapper .applecation-box .applecations .accordion-button {
   font-family: "Comfortaa";
@@ -1177,6 +1193,10 @@ padding: 0px 214px 0px 214px;
 .main-para {
   font-family: "Comfortaa";
   color: #fafafa;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
 }
 @media (max-width: 767px) {
   .main-para {
