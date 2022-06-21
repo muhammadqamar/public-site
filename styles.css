@@ -904,7 +904,7 @@ h6 {
   margin: 0 auto;
   padding: 88px 0 334px 0;
   background-color: #008046  ;
-  margin-bottom: 245px;
+  /* margin-bottom: 245px; */
 }
 .top-option-heading{
   text-align: center;
@@ -992,7 +992,7 @@ padding: 0px 214px 0px 214px;
 }
 /* ========Start grant section CSS===== */
 .grant_section{
-  padding: 0px 214px 0px 214px;
+  padding: 164px 214px 0px 214px;
   background-color: #F7F7F7;
 }
 .grant__text_section{
@@ -1012,7 +1012,6 @@ padding: 0px 214px 0px 214px;
   margin-top: 80px;
 }
 .accordin_section .accordion-button{
-
   width: max-content;
   align-items: center;
   font-size: 40px;
@@ -1057,7 +1056,7 @@ padding: 0px 214px 0px 214px;
     padding: 0px 190px ;
   }
   .grant_section{
-    padding: 0px  190px;
+    padding: 164px  190px 0px;
   }
   .accordin_section{
     padding: 0px 190px;
@@ -1070,7 +1069,6 @@ padding: 0px 214px 0px 214px;
   }
 }
 @media screen and (max-width:1024px){
- 
   .top-option-image-slider{
     padding: 0px 90px 0px 90px;
     }
@@ -1083,10 +1081,17 @@ padding: 0px 214px 0px 214px;
     margin: 0;
   }
   .grant_section{
-    padding: 0px  90px;
+    padding: 100px  90px 0px;
   }
   .accordin_section{
     padding: 0px 90px;
+  }
+  .accordin_section .accordion-button{
+    font-size: 30px;
+    width: 100%;
+  }
+  .accordin_section .accordin_body_section{
+    max-width: 100%;
   }
 }
 @media screen and (max-width:768px){
@@ -1109,7 +1114,7 @@ padding: 0px 214px 0px 214px;
     margin: 0 auto; 
   }
   .grant_section{
-    padding: 0px  40px;
+    padding: 164px  40px 0px;
   }
   .accordin_section{
     padding: 0px 40px;
@@ -1128,7 +1133,6 @@ padding: 0px 214px 0px 214px;
     left: 35px;
     bottom: -250px;
     max-width: 350px;
-
   }
   .forget-section-heading-para{
     margin-left: 0px;
@@ -1142,10 +1146,15 @@ padding: 0px 214px 0px 214px;
     font-size: 28px;
   }
   .grant_section{
-    padding: 0px  20px;
+    padding: 80px  20px 0px;
   }
   .accordin_section{
     padding: 0px 20px;
+  }
+  .accordin_section .accordion-button{
+    font-size: 18px;
+    flex-wrap: wrap;
+    align-content:center ;
   }
 }
 
