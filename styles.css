@@ -747,6 +747,11 @@ h6 {
 .home-card-img {
   top: 65px;
 }
+@media (max-width: 992px) {
+  .home-card-img {
+    top: 77px;
+  }
+}
 .bg-bottom {
   width: 100%;
   height: 23px;
@@ -758,6 +763,11 @@ h6 {
   position: relative;
   background: #f7f7f7;
   padding: 41px 40px;
+}
+@media (max-width: 992px) {
+  .card-back-img {
+    padding: 31px 40px 0;
+  }
 }
 /* .card-back-img {
   background-image: url("./images/back-choose-card.svg");
@@ -820,7 +830,7 @@ h6 {
     flex-wrap: wrap;
   }
   .choose-the-category .choose-cards .choose-card {
-    margin-bottom: 40px;
+    margin-bottom: 47px;
   }
 }
 
@@ -841,19 +851,19 @@ h6 {
   .choose-the-category .choose-cards .choose-card {
     width: 100%;
     min-height: 297.94px;
-    margin-bottom: 24.6px;
+    margin-bottom: 46px;
   }
   .choose-the-category .choose-cards .choose-card .card-bg {
     width: 100%;
     min-height: 297.94px;
-    background-size: cover;
+    background-size: inherit;
   }
   .choose-the-category .choose-cards .choose-card .card-bg .ac-img {
-    width: 100%;
-    margin-top: 47px;
+    /* width: 100%; */
+    /* margin-top: 47px; */
   }
   .choose-the-category .choose-cards .choose-card .card-bg .replace-link {
-    padding: 55px 20px 14px;
+    /* padding: 55px 20px 14px; */
   }
   .choose-the-category
     .choose-cards
@@ -874,7 +884,12 @@ h6 {
     height: 51px;
   }
 }
-
+@media (max-width: 480px) {
+  .choose-the-category .choose-cards .choose-card .card-bg .ac-img {
+    width: 265px;
+    pad: 0 20px;
+  }
+}
 /* Recycle, change */
 
 .recycle-change {
@@ -1005,8 +1020,7 @@ h6 {
   position: absolute;
   top: 126px;
   left: 0px;
-
-  padding: 0px 150px 0px 100px;
+  padding: 0px 38px 0px 100px;
   z-index: 9999;
   /* max-width: 1018px; */
   width: 100%;
@@ -1016,11 +1030,28 @@ h6 {
   border-radius: 8px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   /* margin: 0px 151px  0px 100px; */
 }
-
+.forget-section .forget-section-Detail .link-btn {
+  width: 58px;
+  height: 58px;
+  border-radius: 50px;
+  margin-top: 215px;
+  border: 3px solid rgba(2, 122, 68, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .forget-section .forget-section-Detail .link-btn {
+    margin: 0 100px 0 auto;
+  }
+}
 .forget-section-heading-para {
-  margin-left: 76px;
+  max-width: 446px;
 }
 .forget-section-heading-para h6 {
   font-family: "Comfortaa";
