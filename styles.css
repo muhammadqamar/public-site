@@ -139,7 +139,7 @@ h6 {
 }
 
 /* hero section */
-
+/* 
 .hero-section {
   max-width: 1440px;
   margin: 0 auto;
@@ -272,7 +272,7 @@ h6 {
 
 /* responsive */
 
-@media (min-width: 788px) and (max-width: 1199px) {
+/*@media (min-width: 788px) and (max-width: 1199px) {
   .hero-section {
     padding: 38px 50px 72px;
   }
@@ -364,9 +364,165 @@ h6 {
     width: 108px;
     bottom: -5px;
   }
+} */
+
+/* hero section -2 */
+
+.hero-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px 44px 91px 39px;
+  background-image: url(../images/hero-bg-ac-2.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 70%;
+  background-size: 371px 465px;
 }
 
-/*  installation section  */
+.hero-section .top-content {
+  display: flex;
+  align-items: center;
+}
+
+.hero-section .top-content .content-images .img-one {
+  width: 109.15px;
+  height: 53.66px;
+  margin-right: 13px;
+}
+
+.hero-section .top-content .content-images .img-two {
+  width: 90.24px;
+  height: 60.98px;
+}
+
+.hero-section .top-content .content-title {
+  font-family: "Comfortaa";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  border-left: 3px solid #f05a22;
+  width: 276px;
+  padding: 10px 0 10px 18px;
+  margin-left: 10px;
+}
+.hero-section .main-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-section .main-content .main-img {
+  width: auto;
+  height: auto;
+}
+
+@media (min-width: 788px) and (max-width: 1399px) {
+  .hero-section .main-content .main-img {
+    width: 485px;
+    height: auto;
+  }
+}
+
+@media (max-width: 766px) {
+  .hero-section .main-content .main-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.hero-section .main-content .content-description {
+  width: 659px;
+  padding-top: 50px;
+}
+.content-description .con-des-heading {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #00b061;
+  margin-bottom: 7px;
+}
+
+.content-description .con-des-sub-heading {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+  margin-bottom: 43px;
+  padding-right: 75px;
+}
+
+.content-description .con-des-ac-images {
+  height: 252px;
+  width: 100%;
+  position: relative;
+}
+.content-description .con-des-ac-images .Ac {
+  position: absolute;
+  width: 304px;
+  height: 106px;
+}
+
+.content-description .con-des-ac-images .ac-one {
+  z-index: 3;
+}
+.content-description .con-des-ac-images .ac-two {
+  top: 77px;
+  left: 143px;
+  z-index: 2;
+}
+.content-description .con-des-ac-images .ac-three {
+  top: 150px;
+  left: 295px;
+  z-index: 1;
+}
+
+@media (min-width: 420px) and (max-width: 620px) {
+  .content-description .con-des-ac-images .ac-two {
+    top: 87px;
+    left: 77px;
+  }
+  .content-description .con-des-ac-images .ac-three {
+    top: 161px;
+    left: 165px;
+  }
+}
+
+@media (max-width: 420px) {
+  .content-description .con-des-ac-images .ac-two {
+    top: 142px;
+    left: 3px;
+  }
+  .content-description .con-des-ac-images .ac-three {
+    top: 270px;
+    left: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 50px 24px 91px;
+  }
+
+  .content-description .con-des-ac-images {
+    height: 318px;
+    width: 320px;
+  }
+  .content-description .con-des-ac-images .Ac {
+    width: 100%;
+  }
+}
+@media (max-width: 766px) {
+  .hero-section .main-content .content-description {
+    width: 100%;
+  }
+}
+
+/*  installation section  
 
 .installation {
   width: 100%;
@@ -421,7 +577,7 @@ h6 {
   color: #000000;
 }
 
-/* responsive */
+/* responsive ////
 
 @media (min-width: 788px) and (max-width: 1199px) {
   .installation .installation-wrapper {
@@ -458,6 +614,234 @@ h6 {
   .installation .installation-wrapper .info-box .title-uni {
     font-size: 24px;
   }
+}
+*/
+
+/* environmentally */
+
+.environmentally {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 198px 87px;
+}
+
+@media (min-width: 788px) and (max-width: 1199px) {
+  .environmentally {
+    padding: 0 50px 87px;
+  }
+}
+
+@media (max-width: 768px) {
+  .environmentally {
+    padding: 0 24px 40px;
+  }
+}
+
+.environmentally .env-top-heading {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 32px;
+}
+.environmentally .env-sub-heading {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #000000;
+  margin-bottom: 17px;
+}
+
+.environmentally .env-cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 51px;
+}
+
+.environmentally .env-cards .ev-card:first-child {
+  width: 300px;
+}
+
+.environmentally .env-cards .ev-card:nth-child(2) {
+  width: 385px;
+}
+.environmentally .env-cards .ev-card:last-child {
+  width: 296.27px;
+}
+
+.environmentally .env-cards .ev-card .ev-card-img {
+  width: 296px;
+  height: 211px;
+  margin-bottom: 31px;
+}
+.environmentally .env-cards .ev-card .ev-card-heading {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.environmentally .env-cards .ev-card .ev-card-des {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.environmentally .env-office-box {
+  width: 100%;
+  min-height: 358px;
+  background: #df6436;
+  border-radius: 20px;
+  padding: 32px 40px 44px 40px;
+  position: relative;
+  margin-bottom: 87px;
+}
+.environmentally .env-office-box .office-box-heading {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin-bottom: 19px;
+}
+
+.environmentally .env-office-box ul {
+  max-width: 682px;
+}
+.environmentally .env-office-box ul li {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  padding-left: 24px;
+  color: #ffffff;
+  list-style-image: url(/images/list-img.png);
+}
+
+.environmentally .env-office-box ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+.environmentally .env-office-box ul li span {
+  font-weight: 600;
+}
+
+.environmentally .env-office-box .office-img-box {
+  width: auto;
+  position: absolute;
+  top: 46px;
+  right: -125px;
+  display: block;
+}
+
+@media (min-width: 788px) and (max-width: 1030px) {
+  .environmentally .env-office-box .office-img-box {
+    top: -89px;
+    right: 0;
+    width: 285px;
+  }
+}
+
+.environmentally .env-heading-two {
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto 48px;
+  width: 817px;
+}
+@media (max-width: 768px) {
+  .environmentally .env-heading-two {
+    width: 100%;
+  }
+
+  .environmentally .env-office-box .office-img-box {
+    display: none;
+  }
+}
+
+.environmentally .program-link {
+  width: 711px;
+  min-height: 68px;
+  border: 2px solid #000000;
+  border-radius: 44px;
+  padding: 18px 40px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 32px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .environmentally .program-link {
+    width: 100%;
+  }
+}
+
+.environmentally .program-link .program-logo {
+  width: 34.61px;
+  height: 18px;
+}
+.environmentally .application-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.environmentally .application-box .light-img {
+  width: 51px;
+  height: 95px;
+}
+.environmentally .application-box .application {
+  width: 490px;
+  min-height: 68px;
+  background: #3f3937;
+  border-radius: 44px;
+  padding: 18px 40px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 24px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .environmentally .application-box .application {
+    width: 100%;
+  }
+}
+
+.environmentally .application-box .application .program-logo {
+  width: 34.95px;
+  height: 18px;
 }
 
 /* steps section */
