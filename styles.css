@@ -902,12 +902,7 @@ h6 {
   border-color: #86b6fe00;
   box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
 }
-.steps
-  .steps-wrapper
-  .applecation-box
-  .applecations
-  .accordion-flush
-  .accordion-item {
+.steps .steps-wrapper .applecation-box .applecations .accordion-flush .accordion-item {
   border-top: 1px solid #d2e2da;
   border-bottom: 1px solid #d2e2da;
   /* border: none !important; */
@@ -926,19 +921,10 @@ h6 {
   padding: 22px 0 15px;
   background-color: #f7f7f7;
 }
-.steps
-  .steps-wrapper
-  .applecation-box
-  .applecations
-  .accordion-button.collapsed {
+.steps .steps-wrapper .applecation-box .applecations .accordion-button.collapsed {
   padding: 22px 0;
 }
-.steps
-  .steps-wrapper
-  .applecation-box
-  .applecations
-  .accordion-button
-  .number-box {
+.steps .steps-wrapper .applecation-box .applecations .accordion-button .number-box {
   width: 31px;
   height: 31px;
   border: 1px solid #00b061;
@@ -949,13 +935,7 @@ h6 {
   align-items: center;
   margin-right: 17px;
 }
-.steps
-  .steps-wrapper
-  .applecation-box
-  .applecations
-  .accordion-button
-  .number-box
-  .number {
+.steps .steps-wrapper .applecation-box .applecations .accordion-button .number-box .number {
   font-family: "Comfortaa";
   font-weight: 700;
   font-size: 21px;
@@ -963,12 +943,7 @@ h6 {
   color: #ffffff;
   padding-top: 5px;
 }
-.steps
-  .steps-wrapper
-  .applecation-box
-  .applecations
-  .accordion-button.collapsed
-  .number-box {
+.steps .steps-wrapper .applecation-box .applecations .accordion-button.collapsed .number-box {
   border: 1px solid #000000;
   background-color: #f7f7f7;
 }
@@ -1144,37 +1119,21 @@ h6 {
   width: 386px;
 }
 
-.choose-the-category
-  .choose-cards
-  .choose-card
-  .card-bg
-  .replace-link
-  .replace-title {
+.choose-the-category .choose-cards .choose-card .card-bg .replace-link .replace-title {
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
 }
-.choose-the-category
-  .choose-cards
-  .choose-card
-  .card-bg
-  .replace-link
-  .link-btn {
+.choose-the-category .choose-cards .choose-card .card-bg .replace-link .link-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
 
-.choose-the-category
-  .choose-cards
-  .choose-card
-  .card-bg
-  .replace-link
-  .link-btn
-  .replace-img {
+.choose-the-category .choose-cards .choose-card .card-bg .replace-link .link-btn .replace-img {
   width: 12px;
   height: 24px;
 }
@@ -1218,21 +1177,11 @@ h6 {
     background-size: inherit;
   }
 
-  .choose-the-category
-    .choose-cards
-    .choose-card
-    .card-bg
-    .replace-link
-    .replace-title {
+  .choose-the-category .choose-cards .choose-card .card-bg .replace-link .replace-title {
     font-size: 15px;
     line-height: 21px;
   }
-  .choose-the-category
-    .choose-cards
-    .choose-card
-    .card-bg
-    .replace-link
-    .link-btn {
+  .choose-the-category .choose-cards .choose-card .card-bg .replace-link .link-btn {
     width: 51px;
     height: 51px;
   }
@@ -1247,32 +1196,17 @@ h6 {
 /* FUJITSU Slick-Slider */
 .fujitsu-section {
   width: 100%;
-  margin: 0 auto;
-  padding-bottom: 61px;
-}
-.main-slider-controls {
+  margin-bottom: 61px;
   background: #f7f7f7;
   padding: 56px 0 55px;
 }
-.logos-section {
-  display: flex;
-  justify-content: center;
-}
-.logo-container {
+
+.comp-image-slider .slick-slide img {
   width: 229px;
   height: 115px;
-  background: #ffffff;
-  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  padding: 35px 25px;
-  margin: 0 58px;
+  margin: 0 29px;
 }
-.card-sections {
-  display: flex;
-  justify-content: center;
-}
-.logo {
-}
+
 /* Recycle, change */
 
 .recycle-change {
