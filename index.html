@@ -221,7 +221,7 @@
 
       <div class="application-box">
         <img src="/images/light-img-2.svg" alt="" class="light-img" />
-        <a href="" class="application">
+        <a href="#form" class="application">
           Κάνε εδώ εύκολα την αίτησή σου!
           <img src="/images/link-arrow-right.svg" alt="img" class="program-logo" />
         </a>
@@ -378,7 +378,7 @@
     <!-- See our TOP options! -->
     <section class="top-option-section">
       <section class="main-section top-option-inner">
-        <div class="top-option-heading">
+        <!-- <div class="top-option-heading">
           <p class="heading-text">Δες τις TOP επιλογές μας!</p>
         </div>
         <div class="top-option-video">
@@ -403,41 +403,51 @@
               <img src="./images/slider.png" alt="" />
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- <div class="top-option-forget"> </div> -->
         <div class="forget-section">
-          <div class="forget-section-Detail">
-            <div>
-              <img src="./images/Frame.png" alt="" />
+          <a href="https://www.public.gr/page/help/ypiresies/safety-net" target="_blank">
+            <div class="forget-section-Detail">
+              <div>
+                <img src="./images/Frame.png" alt="" />
+              </div>
+              <div class="forget-section-heading-para">
+                <h6>Μην ξεχάσεις!</h6>
+                <p>Κάνε επέκταση εγγύησης και ξέγνοιασε για 5 ολόκληρα χρόνια!</p>
+              </div>
+              <div class="link-btn">
+                <img class="replace-img" src="./images/forget-arrow-img.svg" alt="arrow" />
+              </div>
             </div>
-            <div class="forget-section-heading-para">
-              <h6>Μην ξεχάσεις!</h6>
-              <p>Κάνε επέκταση εγγύησης και ξέγνοιασε για 5 ολόκληρα χρόνια!</p>
-            </div>
-            <div class="link-btn">
-              <img class="replace-img" src="./images/forget-arrow-img.svg" alt="arrow" />
-            </div>
-          </div>
+          </a>
         </div>
       </section>
     </section>
     <!--=======Start grant section====== -->
     <section class="grant_section">
-      <div class="main-section">
+      <div class="main-grant">
         <div class="row">
           <div class="col-md-7">
             <div class="grant__text_section">
+              <div class="d-flex">
+                <img src="/images/hero-img-2.svg" alt="logo" class="img-two" />
+                <img src="/images/hero-img-1.svg" alt="logo" class="img-one" />
+              </div>
               <h2>Πως μπορώ να αποκτήσω την επιδότηση;</h2>
               <p>
                 Όλα όσα χρειάζεσαι για να ενταχθείς στο πρόγραμμα, βρίσκονται στο
-                https://allazosyskevi.gov.gr, μπες και κάνε τώρα την αίτησή σου!
+                <a href="https://allazosyskevi.gov.gr" target="_blank">
+                  https://allazosyskevi.gov.gr</a
+                >, μπες και κάνε τώρα την αίτησή σου!
               </p>
+
+              <p class="hilight-p">Αιτήσεις έως 5 Ιουλίου στις 15.00</p>
             </div>
           </div>
           <div class="col-md-5">
             <div class="grant_img_section">
-              <img src="images/PBLDRASHEPIDOTHSHS copy-02.png" class="img-fluid" />
+              <img src="images/Frame2.png" class="img-fluid" />
             </div>
           </div>
         </div>
@@ -580,7 +590,7 @@
       </div>
     </section>
 
-    <section class="steps">
+    <!-- <section class="steps">
       <div class="steps-wrapper">
         <h1 class="step-heading">5 απλά βήματα</h1>
         <h3 class="step-sub-heading step-heading">Κάνε την αίτησή σου και επωφελήσου άμεσα.</h3>
@@ -737,7 +747,7 @@
           <img class="link-img" src="./images/link-right-arrow.svg" alt="logo" />
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ==========End Accordin Section======= -->
 
@@ -1433,6 +1443,7 @@
     <!-- iframe -->
     <div class="ifram-section">
       <iframe
+        id="form"
         height="1059"
         title="Embedded Wufoo Form"
         allowtransparency="true"

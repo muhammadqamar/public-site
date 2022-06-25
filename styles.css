@@ -775,6 +775,18 @@ h6 {
   .environmentally .env-office-box .office-img-box {
     display: none;
   }
+
+  .environmentally .env-office-box .office-box-heading {
+    line-height: 44px;
+  }
+
+  .environmentally .env-office-box {
+    padding: 25px;
+  }
+
+  .environmentally .env-office-box ul li {
+    padding-left: 7px;
+  }
 }
 
 .environmentally .program-link {
@@ -814,6 +826,7 @@ h6 {
 .environmentally .application-box .light-img {
   width: 51px;
   height: 95px;
+  display: block;
 }
 .environmentally .application-box .application {
   width: 490px;
@@ -836,6 +849,13 @@ h6 {
 @media (max-width: 768px) {
   .environmentally .application-box .application {
     width: 100%;
+  }
+  .environmentally .application-box .light-img {
+  }
+}
+@media (max-width: 766px) {
+  .environmentally .application-box .light-img {
+    display: none;
   }
 }
 
@@ -1285,7 +1305,7 @@ h6 {
 /* See our TOP options! CSS */
 .top-option-section {
   position: relative;
-  padding: 88px 0 334px 0 !important;
+  padding: 0 0 334px 0 !important;
   background-color: #008046;
 }
 .top-option-section .top-option-inner {
@@ -1380,17 +1400,68 @@ h6 {
 /* ========Start grant section CSS===== */
 .grant_section {
   background-color: #f7f7f7;
-  padding-top: 144px;
+}
+.grant_section .main-grant {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 136px 122px 0;
 }
 .grant__text_section {
   margin-top: 60px;
+  width: 533px;
+}
+@media (max-width: 768px) {
+  .grant_section .main-grant {
+    padding: 40px 24px 0;
+  }
+  .grant__text_section {
+    width: 100%;
+  }
+}
+.grant__text_section .d-flex {
+  margin-bottom: 25px;
+}
+
+.grant__text_section .d-flex .img-two {
+  margin-right: 21px;
 }
 .grant__text_section h2 {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
   font-size: 40px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  margin-bottom: 19px;
 }
 .grant__text_section p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
   font-size: 18px;
-  margin-top: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-bottom: 19px;
+}
+.grant__text_section p a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.grant__text_section .hilight-p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 /* ========End grant section CSS===== */
 /* ========Start accordin section CSS==== */
@@ -1528,6 +1599,9 @@ h6 {
   .top-option-image-slider .slick-slide img {
     width: 300px;
   }
+  .accordin_section .accordion-button::after {
+    margin-left: auto;
+  }
 }
 
 /* Love Earth */
@@ -1557,6 +1631,7 @@ h6 {
 @media (max-width: 767px) {
   .main-para {
     font-size: 21px;
+    line-height: 44px;
   }
 }
 /* Card section */
