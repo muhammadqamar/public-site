@@ -1807,6 +1807,15 @@ h6 {
   color: rgba(255, 255, 255, 0) !important;
 }
 
+@media (min-width: 789px) and (max-width: 1030px) {
+  .love_slider .slick-prev {
+    left: 28%;
+  }
+  .love_slider .slick-next {
+    right: 28%;
+  }
+}
+
 @media (max-width: 768px) {
   .love_slider .slick-prev {
     left: 25%;
