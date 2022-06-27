@@ -481,7 +481,11 @@ h6 {
   z-index: 1;
 }
 
-@media (min-width: 420px) and (max-width: 620px) {
+@media (min-width: 420px) and (max-width: 768px) {
+  .content-description .con-des-ac-images {
+    height: 318px;
+    width: 320px;
+  }
   .content-description .con-des-ac-images .ac-two {
     top: 87px;
     left: 77px;
@@ -493,6 +497,10 @@ h6 {
 }
 
 @media (max-width: 420px) {
+  .content-description .con-des-ac-images {
+    height: 318px;
+    width: 100%;
+  }
   .content-description .con-des-ac-images .ac-two {
     top: 142px;
     left: 3px;
@@ -508,10 +516,6 @@ h6 {
     padding: 50px 24px 91px;
   }
 
-  .content-description .con-des-ac-images {
-    height: 318px;
-    width: 320px;
-  }
   .content-description .con-des-ac-images .Ac {
     width: 100%;
   }
@@ -519,6 +523,11 @@ h6 {
 @media (max-width: 766px) {
   .hero-section .main-content .content-description {
     width: 100%;
+  }
+  .content-description .con-des-sub-heading {
+    font-size: 28px;
+    line-height: 42px;
+    padding-right: 0;
   }
 }
 
@@ -777,7 +786,8 @@ h6 {
   }
 
   .environmentally .env-office-box .office-box-heading {
-    line-height: 44px;
+    line-height: 34px;
+    font-size: 24px;
   }
 
   .environmentally .env-office-box {
@@ -786,6 +796,24 @@ h6 {
 
   .environmentally .env-office-box ul li {
     padding-left: 7px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .environmentally .env-top-heading {
+    font-size: 32px;
+  }
+  .environmentally .env-sub-heading {
+    font-size: 24px;
+  }
+
+  .environmentally .env-heading-two {
+    font-size: 32px;
+  }
+  .environmentally .env-cards .ev-card .ev-card-heading {
+    font-size: 24px;
+  }
+  .environmentally .env-cards .ev-card .ev-card-des {
+    line-height: 24px;
   }
 }
 
@@ -810,6 +838,7 @@ h6 {
 
 @media (max-width: 768px) {
   .environmentally .program-link {
+    padding: 10px 20px;
     width: 100%;
   }
 }
@@ -848,6 +877,7 @@ h6 {
 
 @media (max-width: 768px) {
   .environmentally .application-box .application {
+    padding: 15px 20px;
     width: 100%;
   }
   .environmentally .application-box .light-img {
@@ -1282,7 +1312,7 @@ h6 {
     padding: 54px 24px 72px;
   }
   .recycle-change .main-heading {
-    font-size: 16px;
+    font-size: 24px;
     line-height: 35px;
   }
   .recycle-change .sub-heading {
@@ -1291,6 +1321,7 @@ h6 {
     font-size: 24px;
   }
   .recycle-change .questions .accordion-button {
+    font-size: 24px;
     padding: 6px 14px;
   }
   .recycle-change .questions .accordion-body {
@@ -1571,6 +1602,10 @@ h6 {
   .top-option-image-slider .slick-slide img {
     width: 600px;
   }
+  .grant__text_section h2 {
+    font-size: 32px;
+    line-height: 50px;
+  }
 }
 @media screen and (max-width: 600px) {
   .top-option-section {
@@ -1585,7 +1620,7 @@ h6 {
   }
   .forget-section-heading-para p {
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
   }
   .grant_section {
     padding-top: 80px;
@@ -1630,7 +1665,7 @@ h6 {
 }
 @media (max-width: 767px) {
   .main-para {
-    font-size: 21px;
+    font-size: 24px;
     line-height: 44px;
   }
 }
@@ -1640,42 +1675,16 @@ h6 {
   align-items: flex-start;
 }
 .love-earth .cards {
-  width: 100%;
+  width: 357px;
   min-height: 485px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-bottom: 109px;
 }
 
 /* Responsive */
-@media (max-width: 1024px) {
-  .love-earth .girl-cards {
-    display: none;
-  }
-}
-@media (max-width: 1024px) {
-  .love-earth .cards {
-    width: 650px;
-    min-height: 510px;
-  }
-}
-@media (max-width: 767px) {
-  .love-earth .cards {
-    width: 100%;
-    margin: 0 50px 0;
-  }
-}
-@media (max-width: 480px) {
-  .love-earth .cards {
-    min-height: 560px;
-    margin: 0 40px 0;
-  }
-}
-@media (max-width: 374px) {
-  .love-earth .cards {
-    margin: 0 10px 0;
-  }
-}
+
 /* card logos */
 .love-earth .cards .earth-logo {
   width: 266px;
@@ -1716,113 +1725,111 @@ h6 {
     max-width: 340px;
   }
 }
-/* Slider */
-.carousel-indicators {
-  bottom: -110px;
-}
-@media (max-width: 480px) {
-  .carousel-indicators {
-    bottom: -103px;
-  }
-}
-/* slider pre nd next btn */
-.carousel-inner {
-  margin-bottom: 59px;
-}
-.arrow-pre-btn {
-  width: 50px !important;
-  height: 50px !important;
-  position: absolute;
-  left: 42%;
-  background-color: transparent;
-  border-radius: 50%;
-  z-index: 9;
-  border: 1px solid #fafafa;
-}
-@media (max-width: 1200px) {
-  .arrow-pre-btn {
-    left: 40%;
-  }
-}
-@media (max-width: 1100px) {
-  .arrow-pre-btn {
-    left: 38%;
-  }
-}
-@media (max-width: 1023px) {
-  .arrow-pre-btn {
-    left: 36%;
-  }
-}
-@media (max-width: 600px) {
-  .arrow-pre-btn {
-    left: 33%;
-  }
-}
-@media (max-width: 480px) {
-  .arrow-pre-btn {
-    width: 40px !important;
-    height: 40px !important;
-    left: 22%;
-  }
-}
-.arrow-next-btn {
-  width: 50px !important;
-  height: 50px !important;
-  border: 1px solid #fafafa;
-  position: absolute;
-  right: 42%;
-  background-color: transparent;
-  border-radius: 50%;
-  z-index: 9;
-}
-@media (max-width: 1200px) {
-  .arrow-next-btn {
-    right: 40%;
-  }
-}
-@media (max-width: 1100px) {
-  .arrow-next-btn {
-    right: 38%;
-  }
-}
-@media (max-width: 1023px) {
-  .arrow-next-btn {
-    right: 36%;
-  }
-}
-@media (max-width: 600px) {
-  .arrow-next-btn {
-    right: 33%;
-  }
-}
-@media (max-width: 480px) {
-  .arrow-next-btn {
-    width: 40px !important;
-    height: 40px !important;
-    right: 22%;
-  }
-}
-.arrow-img {
-  width: 13.33px;
-  height: 23.31px;
-}
-.earth-love-btn {
+
+/*slider dot */
+
+.love_slider .slick-dots li button {
   width: 16px !important;
   height: 16px !important;
+  padding: 0 !important;
   border: 1px solid #d9d9d9 !important;
-  background-color: transparent !important;
-  border-radius: 50%;
+  border-radius: 50px;
+  background: transparent;
 }
-@media (max-width: 480px) {
-  .earth-love-btn {
-    width: 12px !important;
-    height: 12px !important;
-  }
-}
-button.active {
+
+.love_slider .slick-dots li.slick-active button {
+  width: 16px !important;
+  height: 16px !important;
+  padding: 0 !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 50px;
   background: #d9d9d9 !important;
 }
+.love_slider .slick-dots li button:before {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  width: 16px !important;
+  height: 16px !important;
+  content: "" !important;
+  color: rgba(0, 0, 0, 0) !important;
+}
+
+/* slider pre nd next btn */
+
+.love_slider .slick-prev {
+  left: 41%;
+}
+.love_slider .slick-next {
+  right: 41%;
+}
+
+.love_slider .slick-prev {
+  background-image: url("./images/left-slide-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.love_slider .slick-next {
+  background-image: url("./images/right-slide-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.love_slider .slick-prev:hover,
+.love_slider .slick-prev:focus {
+  background-image: url("./images/left-slide-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.love_slider .slick-next:hover,
+.love_slider .slick-next:focus {
+  background-image: url("./images/right-slide-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.love_slider .slick-prev,
+.love_slider .slick-next {
+  top: 102% !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50px;
+  border: 1px solid #fafafa !important;
+  z-index: 2;
+}
+.love_slider .slick-prev:before,
+.love_slider .slick-next:before {
+  content: "" !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  opacity: inherit !important;
+  color: rgba(255, 255, 255, 0) !important;
+}
+
+@media (max-width: 768px) {
+  .love_slider .slick-prev {
+    left: 25%;
+  }
+  .love_slider .slick-next {
+    right: 25%;
+  }
+}
+
+@media (max-width: 599px) {
+  .love_slider .slick-prev,
+  .love_slider .slick-next {
+    top: 110% !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .love-earth .cards {
+    width: 100%;
+  }
+}
+
+/* ifram  */
 
 .ifram-section {
   max-width: 1440px;
@@ -1854,4 +1861,10 @@ button.active {
 .footer-img2 {
   width: 148px;
   height: 100px;
+}
+
+@media (max-width: 677px) {
+  .footer-section {
+    padding: 85px 24px 47px;
+  }
 }
