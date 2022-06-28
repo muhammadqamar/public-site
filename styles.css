@@ -1848,6 +1848,7 @@ h6 {
   border: 1px solid #fafafa !important;
   z-index: 2;
 }
+
 .love_slider .slick-prev:before,
 .love_slider .slick-next:before {
   content: "" !important;
@@ -1875,11 +1876,25 @@ h6 {
     right: 25%;
   }
 }
+@media (min-width: 599px) and (max-width: 768px) {
+  .love_slider .slick-prev,
+  .love_slider .slick-next {
+    top: 92% !important;
+  }
+
+  .love_slider .slick-dots {
+    bottom: 36px;
+  }
+}
 
 @media (max-width: 599px) {
   .love_slider .slick-prev,
   .love_slider .slick-next {
-    top: 110% !important;
+    top: 100% !important;
+  }
+
+  .love_slider .slick-dots {
+    bottom: 36px;
   }
 }
 
