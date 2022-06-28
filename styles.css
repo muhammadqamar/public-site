@@ -1262,7 +1262,7 @@ h6 {
 .recycle-change {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 100px 120px 0 124px;
+  padding: 100px 120px 149px 124px;
 }
 .recycle-change .main-heading {
   font-family: "Comfortaa";
@@ -1843,12 +1843,12 @@ h6 {
 .ifram-section {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 64px 100px;
 }
 
 @media (max-width: 800px) {
   .ifram-section {
-    padding: 0 20px;
+    padding: 34px 20px;
   }
 }
 
@@ -1856,7 +1856,7 @@ h6 {
 .footer-section {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 85px 116px 47px 124px;
+  padding: 0 116px 47px 124px;
 }
 .footer-group-imgs {
   border-top: 1px solid #000000;
