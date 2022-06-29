@@ -36,14 +36,14 @@ $(".love_slider").slick({
 
   responsive: [
     {
-      breakpoint: 1025,
+      breakpoint: 1380,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
       },
     },
     {
-      breakpoint: 600,
+      breakpoint: 699,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
