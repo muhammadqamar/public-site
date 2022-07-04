@@ -1,4 +1,4 @@
-$(".banner_slider2").slick({
+$(".banner_slider2").owlCarousel({
   dots: false,
   infinite: true,
   speed: 300,
@@ -10,17 +10,31 @@ $(".banner_slider2").slick({
   centerPadding: "60px",
 });
 
-$(".logo_slider3").slick({
-  dots: false,
-  infinite: true,
-  autoplay: true,
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  arrows: false,
-  variableWidth: true,
-  speed: 2000,
-  autoplaySpeed: 2000,
-  cssEase: "linear",
+$(".logo_slider3").owlCarousel({
+  // dots: false,
+  // infinite: true,
+  // autoplay: true,
+  // slidesToShow: 4,
+  // slidesToScroll: 1,
+  // arrows: false,
+  // variableWidth: true,
+  // speed: 2000,
+  // autoplaySpeed: 2000,
+  // cssEase: "linear",
+  loop: true,
+  margin: 10,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 3,
+    },
+    1000: {
+      items: 5,
+    },
+  },
 });
 
 $(".love_slider").slick({
