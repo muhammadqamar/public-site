@@ -2189,7 +2189,7 @@ h6 {
 
 .carousel-control-next.desktop-card-slider,
 .carousel-control-prev.desktop-card-slider {
-  display: block;
+  display: flex;
 }
 
 .carousel-control-next.ipad-card-slide,
@@ -2230,7 +2230,7 @@ h6 {
 
   .carousel-control-next.ipad-card-slide,
   .carousel-control-prev.ipad-card-slide {
-    display: block;
+    display: flex;
   }
   .carousel-control-next.mobile-card-slide,
   .carousel-control-prev.mobile-card-slide {
@@ -2279,7 +2279,7 @@ h6 {
   }
   .carousel-control-next.mobile-card-slide,
   .carousel-control-prev.mobile-card-slide {
-    display: block;
+    display: flex;
   }
   /*  */
 
