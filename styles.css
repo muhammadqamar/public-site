@@ -1128,6 +1128,12 @@ h6 {
   padding: 0 120px 87px;
 }
 
+@media (max-width: 768px) {
+  .choose-the-category.section-two {
+    padding: 0 24px 87px;
+  }
+}
+
 .ch-heading {
   width: 816px;
   font-family: "Comfortaa";
@@ -2100,6 +2106,10 @@ h6 {
   }
 }
 
+.carousel-item {
+  text-align: center !important;
+}
+
 .carousel-item img {
   width: 229px;
   height: 115px;
@@ -2179,11 +2189,15 @@ h6 {
 
 .carousel-control-next.desktop-card-slider,
 .carousel-control-prev.desktop-card-slider {
-  display: flex;
+  display: block;
 }
 
 .carousel-control-next.ipad-card-slide,
 .carousel-control-prev.ipad-card-slide {
+  display: none;
+}
+.carousel-control-next.mobile-card-slide,
+.carousel-control-prev.mobile-card-slide {
   display: none;
 }
 
@@ -2216,7 +2230,11 @@ h6 {
 
   .carousel-control-next.ipad-card-slide,
   .carousel-control-prev.ipad-card-slide {
-    display: flex;
+    display: block;
+  }
+  .carousel-control-next.mobile-card-slide,
+  .carousel-control-prev.mobile-card-slide {
+    display: none;
   }
 
   .carousel-control-prev {
@@ -2258,6 +2276,10 @@ h6 {
   .carousel-control-next.ipad-card-slide,
   .carousel-control-prev.ipad-card-slide {
     display: none;
+  }
+  .carousel-control-next.mobile-card-slide,
+  .carousel-control-prev.mobile-card-slide {
+    display: block;
   }
   /*  */
 
