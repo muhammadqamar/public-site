@@ -32,6 +32,10 @@ h6 {
   padding: 0 !important;
 }
 
+.heading-top {
+  font-size : 28px;
+  padding-bottom: 10px;
+}
 /* top Banner */
 .top-banner {
   width: 100%;
@@ -144,7 +148,7 @@ h6 {
   }
 }
 /* hero section */
-/* 
+/*
 .hero-section {
   max-width: 1440px;
   margin: 0 auto;
@@ -541,7 +545,7 @@ h6 {
   }
 }
 
-/*  installation section  
+/*  installation section
 
 .installation {
   width: 100%;
@@ -1520,7 +1524,7 @@ h6 {
 }
 .grant__text_section {
   margin-top: 60px;
-  width: 533px;
+  width: 561px;
 }
 @media (max-width: 768px) {
   .grant_section .main-grant {
