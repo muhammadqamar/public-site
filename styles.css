@@ -33,7 +33,7 @@ h6 {
 }
 
 .heading-top {
-  font-size : 28px;
+  font-size: 28px;
   padding-bottom: 10px;
 }
 /* top Banner */
@@ -1971,10 +1971,19 @@ h6 {
   margin: 0 auto;
   padding: 64px 100px;
 }
+.ifram-section iframe {
+  min-height: 650px;
+}
+
+@media (max-width: 650px) {
+  .ifram-section iframe {
+    height: 890px;
+  }
+}
 
 @media (max-width: 800px) {
   .ifram-section {
-    padding: 34px 20px;
+    padding: 34px 20px 5px;
   }
 }
 
@@ -2106,7 +2115,7 @@ h6 {
 }
 @media (max-width: 677px) {
   .footer-section {
-    padding: 85px 24px 47px;
+    padding: 0px 24px 47px;
   }
 }
 
